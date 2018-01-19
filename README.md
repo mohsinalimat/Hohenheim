@@ -1,7 +1,7 @@
 
 <p align="center">
-  <!--<img src="https://i.loli.net/2018/01/05/5a4f153d36a21.png" alt="PhotosKit">-->
-  <br/><a href="https://cocoapods.org/pods/PhotosKit">
+  <!--<img src="https://i.loli.net/2018/01/05/5a4f153d36a21.png" alt="Hohenheim">-->
+  <br/><a href="https://cocoapods.org/pods/Hohenheim">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-brightgreen.svg">
   <img alt="Author" src="https://img.shields.io/badge/author-Meniny-blue.svg">
   <img alt="Build Passing" src="https://img.shields.io/badge/build-passing-brightgreen.svg">
@@ -20,7 +20,7 @@
 
 ## What's this?
 
-`PhotosKit` is an elegant image picker for iOS.
+`Hohenheim` is an elegant image picker for iOS.
 
 ## Requirements
 
@@ -32,7 +32,7 @@
 #### CocoaPods
 
 ```ruby
-pod 'PhotosKit'
+pod 'Hohenheim'
 ```
 
 ## Contribution
@@ -41,4 +41,4 @@ You are welcome to fork and submit pull requests.
 
 ## License
 
-`PhotosKit` is open-sourced software, licensed under the `MIT` license.
+`Hohenheim` is open-sourced software, licensed under the `MIT` license.
