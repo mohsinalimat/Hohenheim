@@ -22,6 +22,8 @@
 
 `Hohenheim` is an elegant image picker for iOS.
 
+![preview](./Assets/preview.png)
+
 ## Requirements
 
 * iOS 9.0+
