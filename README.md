@@ -22,7 +22,7 @@
 
 `Hohenheim` is an elegant image picker for iOS.
 
-![preview](./Assets/preview.png)
+<center><img src="./Assets/preview.png" style="height: 200px;"></center>
 
 ## Requirements
 
