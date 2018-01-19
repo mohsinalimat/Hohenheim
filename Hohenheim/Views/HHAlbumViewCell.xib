@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HHAlbumViewCell" id="xyV-m5-VJN" customClass="HHAlbumViewCell" customModule="Fusuma" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eyB-Pn-Cz7">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsL-Dt-NSV">
+                        <rect key="frame" x="8" y="184" width="184" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="8" id="Sl1-op-yy5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="GsL-Dt-NSV" secondAttribute="trailing" constant="8" id="7JC-62-skc"/>
+                <constraint firstAttribute="bottom" secondItem="eyB-Pn-Cz7" secondAttribute="bottom" id="7nt-Ev-pzc"/>
+                <constraint firstItem="eyB-Pn-Cz7" firstAttribute="leading" secondItem="xyV-m5-VJN" secondAttribute="leading" id="Tri-pb-OD8"/>
+                <constraint firstItem="GsL-Dt-NSV" firstAttribute="leading" secondItem="xyV-m5-VJN" secondAttribute="leading" constant="8" id="azs-9b-ExV"/>
+                <constraint firstAttribute="trailing" secondItem="eyB-Pn-Cz7" secondAttribute="trailing" id="hLc-zq-PCS"/>
+                <constraint firstAttribute="bottom" secondItem="GsL-Dt-NSV" secondAttribute="bottom" constant="8" id="tp4-FD-fsA"/>
+                <constraint firstItem="eyB-Pn-Cz7" firstAttribute="top" secondItem="xyV-m5-VJN" secondAttribute="top" id="unD-44-W5K"/>
+            </constraints>
+            <size key="customSize" width="204" height="172"/>
+            <connections>
+                <outlet property="imageView" destination="eyB-Pn-Cz7" id="OJW-qf-zy1"/>
+                <outlet property="infoLabel" destination="GsL-Dt-NSV" id="f0V-pi-ZLA"/>
+            </connections>
+            <point key="canvasLocation" x="329" y="367"/>
+        </collectionViewCell>
+    </objects>
+</document>
