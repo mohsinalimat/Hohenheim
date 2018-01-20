@@ -1,0 +1,6 @@
+framework module Hohenheim {
+  umbrella header "Hohenheim-umbrella.h"
+
+  export *
+  module * { export * }
+}

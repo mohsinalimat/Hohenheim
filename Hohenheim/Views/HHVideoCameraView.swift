@@ -54,16 +54,19 @@ final class HHVideoCameraView: UIView {
         
         guard let session = session else { return }
         
-        self.device = AVCaptureDevice.device(at: .back, mediaType: .video)
+        guard let dev = AVCaptureDevice.device(at: .back, mediaType: .video) else {
+            return
+        }
 //        for device in AVCaptureDevice.devices() {
 //            if device.position == AVCaptureDevice.Position.back {
 //                self.device = device
 //            }
 //        }
+        self.device = dev
         
         do {
             
-            videoInput = try AVCaptureDeviceInput(device: device!)
+            videoInput = try AVCaptureDeviceInput(device: dev)
             
             session.addInput(videoInput!)
             

@@ -1,0 +1,453 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 67,
+      "symbol": "HohenheimConfiguration",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 68,
+      "symbol": "HohenheimConfiguration.baseTintColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 69,
+      "symbol": "HohenheimConfiguration.tintColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 70,
+      "symbol": "HohenheimConfiguration.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 72,
+      "symbol": "HohenheimConfiguration.checkImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 73,
+      "symbol": "HohenheimConfiguration.closeImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 74,
+      "symbol": "HohenheimConfiguration.flashOnImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 75,
+      "symbol": "HohenheimConfiguration.flashOffImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 76,
+      "symbol": "HohenheimConfiguration.flipImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 77,
+      "symbol": "HohenheimConfiguration.shotImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 79,
+      "symbol": "HohenheimConfiguration.videoStartImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 80,
+      "symbol": "HohenheimConfiguration.videoStopImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 82,
+      "symbol": "HohenheimConfiguration.shouldAutoSavesImage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 84,
+      "symbol": "HohenheimConfiguration.cameraRollTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 85,
+      "symbol": "HohenheimConfiguration.cameraTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 86,
+      "symbol": "HohenheimConfiguration.videoTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 87,
+      "symbol": "HohenheimConfiguration.titleFont",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Configuration.swift",
+      "line": 89,
+      "symbol": "HohenheimConfiguration.shouldAutoDismiss",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 55,
+      "symbol": "AVCaptureDevice.CurrentFlashMode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 56,
+      "symbol": "AVCaptureDevice.CurrentFlashMode.off",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 57,
+      "symbol": "AVCaptureDevice.CurrentFlashMode.on",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 58,
+      "symbol": "AVCaptureDevice.CurrentFlashMode.auto",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 61,
+      "symbol": "AVCaptureDevice.getSettings(flashMode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Helpers/Extensions.swift",
+      "line": 74,
+      "symbol": "AVCaptureDevice.device(_:at:mediaType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": null,
+      "symbol": "HohenheimDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": null,
+      "symbol": "HohenheimViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 32,
+      "symbol": "HohenheimItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 37,
+      "symbol": "HohenheimItem.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 38,
+      "symbol": "HohenheimItem.asset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 42,
+      "symbol": "Array.contains(asset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 51,
+      "symbol": "Array.contains(image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 61,
+      "symbol": "HohenheimDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 62,
+      "symbol": "HohenheimDelegate.hohenheimCameraRollUnauthorized(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 63,
+      "symbol": "HohenheimDelegate.hohenheim(_:didSelectItems:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 64,
+      "symbol": "HohenheimDelegate.hohenheim(_:didCapturePhoto:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 65,
+      "symbol": "HohenheimDelegate.hohenheim(_:didCaptureVideo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 66,
+      "symbol": "HohenheimDelegate.hohenheimDidDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 67,
+      "symbol": "HohenheimDelegate.hohenheimWillDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 71,
+      "symbol": "HohenheimDelegate.hohenheim(_:didSelectItems:from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 72,
+      "symbol": "HohenheimDelegate.hohenheim(_:didCapturePhoto:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 73,
+      "symbol": "HohenheimDelegate.hohenheim(_:didCaptureVideo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 74,
+      "symbol": "HohenheimDelegate.hohenheimDidDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 75,
+      "symbol": "HohenheimDelegate.hohenheimWillDismiss(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 78,
+      "symbol": "HohenheimSource",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 79,
+      "symbol": "HohenheimSource.library",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 80,
+      "symbol": "HohenheimSource.camera",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 81,
+      "symbol": "HohenheimSource.video",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 83,
+      "symbol": "HohenheimSource.all",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 88,
+      "symbol": "HohenheimViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 90,
+      "symbol": "HohenheimViewController.allowMultipleSelection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 94,
+      "symbol": "HohenheimViewController.availableModes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 95,
+      "symbol": "HohenheimViewController.cameraPosition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 118,
+      "symbol": "HohenheimViewController.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 120,
+      "symbol": "HohenheimViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 127,
+      "symbol": "HohenheimViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 278,
+      "symbol": "HohenheimViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 282,
+      "symbol": "HohenheimViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 306,
+      "symbol": "HohenheimViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 311,
+      "symbol": "HohenheimViewController.prefersStatusBarHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 467,
+      "symbol": "HohenheimViewController.albumViewCameraRollAuthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/HohenheimViewController.swift",
+      "line": 474,
+      "symbol": "HohenheimViewController.albumViewCameraRollUnauthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Views/HHAlbumView.swift",
+      "line": 12,
+      "symbol": "HHAlbumViewDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Views/HHAlbumView.swift",
+      "line": 13,
+      "symbol": "HHAlbumViewDelegate.albumViewCameraRollUnauthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Meniny/Documents/GitHub/Hohenheim/Hohenheim/Views/HHAlbumView.swift",
+      "line": 14,
+      "symbol": "HHAlbumViewDelegate.albumViewCameraRollAuthorized()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Meniny/Documents/GitHub/Hohenheim"
+}

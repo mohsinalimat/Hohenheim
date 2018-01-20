@@ -15,7 +15,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HohenheimViewController" customModule="Fusuma" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HohenheimViewController" customModule="Hohenheim" customModuleProvider="target">
             <connections>
                 <outlet property="cameraButton" destination="sCN-QB-mCu" id="tC3-i4-xpG"/>
                 <outlet property="cameraShotContainer" destination="CFH-FU-LPW" id="gvI-wh-cln"/>
@@ -110,8 +110,6 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                             <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
                             <state key="normal" title="Library"/>
-                            <state key="selected" image="ic_insert_photo"/>
-                            <state key="highlighted" image="ic_insert_photo"/>
                             <connections>
                                 <action selector="libraryButtonPressed:" destination="-1" eventType="touchUpInside" id="4H9-TH-qO3"/>
                             </connections>
@@ -124,8 +122,6 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                             <inset key="imageEdgeInsets" minX="2" minY="3" maxX="2" maxY="2"/>
                             <state key="normal" title="Video"/>
-                            <state key="selected" image="ic_photo_camera"/>
-                            <state key="highlighted" image="ic_photo_camera"/>
                             <connections>
                                 <action selector="videoButtonPressed:" destination="-1" eventType="touchUpInside" id="jZa-kI-xDJ"/>
                             </connections>
@@ -138,8 +134,6 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                             <inset key="imageEdgeInsets" minX="2" minY="3" maxX="2" maxY="2"/>
                             <state key="normal" title="Photo"/>
-                            <state key="selected" image="ic_photo_camera"/>
-                            <state key="highlighted" image="ic_photo_camera"/>
                             <connections>
                                 <action selector="photoButtonPressed:" destination="-1" eventType="touchUpInside" id="798-LR-edY"/>
                             </connections>
@@ -183,7 +177,5 @@
     <resources>
         <image name="ic_check" width="48" height="48"/>
         <image name="ic_close" width="48" height="48"/>
-        <image name="ic_insert_photo" width="36" height="36"/>
-        <image name="ic_photo_camera" width="36" height="36"/>
     </resources>
 </document>
