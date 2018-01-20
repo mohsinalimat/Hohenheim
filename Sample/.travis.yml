@@ -1,0 +1,11 @@
+language: swift
+osx_image: xcode9.2
+script:
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
+  - xcodebuild test -workspace Hohenheim.xcworkspace -scheme Sample -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' ONLY_ACTIVE_ARCH=NO build
+
+#before_install:
+#  - brew update
+#  - brew uninstall xctool && brew install --HEAD xctool
