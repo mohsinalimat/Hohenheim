@@ -4,7 +4,7 @@ script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
-  - xcodebuild test -workspace Hohenheim.xcworkspace -scheme Sample -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' ONLY_ACTIVE_ARCH=NO build
+  - xcodebuild test -workspace Sample.xcworkspace -scheme Sample -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' ONLY_ACTIVE_ARCH=NO build
 
 #before_install:
 #  - brew update
