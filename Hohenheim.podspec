@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.swift_version    = "4.0"
   s.requires_arc     = true
   s.ios.deployment_target = "10.0"
-  s.description  = "Hohenheim is an elegant image picker for iOS"
-  s.module_name = 'Hohenheim'
+  s.frameworks       = "Foundation", "UIKit", "AVFoundation", "Photos", "CoreMotion"
+  s.description      = "Hohenheim is an elegant image picker for iOS"
+  s.module_name      = 'Hohenheim'
 end

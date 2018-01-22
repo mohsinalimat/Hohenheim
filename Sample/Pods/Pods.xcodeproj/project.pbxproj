@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015C6BC75B47D585F46D8329FD088FEA /* Hohenheim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDD1488FCD557FB8DDF312D7D4FA85 /* Hohenheim-dummy.m */; };
-		05C59BBFCA3BCD984518F127A8076B1F /* HHAlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 903BCF457BF2A5BADEED6064E921E19D /* HHAlbumViewCell.xib */; };
-		068EEFFB6C9513BC96B3EC91EF45358F /* HHAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CC88D3A4740FA5781F6468A6880C40 /* HHAlbumView.swift */; };
-		06CE43009DC9B231EBEA30F42ACA22E5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D21AEFED927276112D72A5538D1470A /* Configuration.swift */; };
-		1E757F61649910C13A111EE2A15530B1 /* HohenheimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2EC8B40EB5A32E46209D2790535DEC /* HohenheimViewController.swift */; };
-		357F2E77F123799D5A10C1F995D1DCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		436EB0E4E70F2FAE46FC00A0A7AAD47E /* HHCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95A0DCA60DD5939137730574EB5FB63 /* HHCameraView.xib */; };
-		53C3080EF0F277A7775649B4968FDC40 /* HHAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93BBE64C11E5F29910C9F9E351B13FE /* HHAlbumView.xib */; };
-		598A7BC001181F3A1459B1CD34020964 /* Hohenheim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD0149B92778BF17C7C32DE2F6ED4B5 /* Hohenheim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AF4E1495A94030523A07DA6D43F7BAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8125F1D4762EC6F9B647781914E80CD1 /* HHCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609150C6F0CCA5FDC41B4C645FB026B8 /* HHCameraView.swift */; };
-		A8B91FF10E039F338388668FA87A2AD8 /* HHAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FAD4D5B126EE7D199C5E5D38D188F /* HHAlbumViewCell.swift */; };
-		B928F1E1DC4BE00523F290EF5426F8F2 /* HHVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA640ED7B13B7249A69C61470180B1B /* HHVideoCameraView.xib */; };
+		02A123327342B4536A170A9DC0912757 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5FEDCB74879A442B560010C8ACEAE0 /* Photos.framework */; };
+		1E82790CB18D3B4966F73B8CE2C12E46 /* HHAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95A334A6797476A392FEC19EF723B6A /* HHAlbumView.swift */; };
+		259266F6A701EDA081233355909603E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8820B1652E49290CE3A3E6AEA16C909D /* UIKit.framework */; };
+		2BE6C313BC83824937E5CF0814A01E72 /* HHAlbumViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A992B9B222EF1A5033DBF9B8AAE84E /* HHAlbumViewCell.xib */; };
+		357F2E77F123799D5A10C1F995D1DCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B378E2E1A3FEB98B63466A46A837D3AD /* Foundation.framework */; };
+		4567F51A63DC672F336B113636194370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C8DB7F2C1EAEB908FA17970DE4F0D0 /* Assets.xcassets */; };
+		4FE6608E05E63FB37ACD660A68A76872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B378E2E1A3FEB98B63466A46A837D3AD /* Foundation.framework */; };
+		53680E15CAFC2613100DE985C3E1B97F /* HHAlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114AAC04B00D2A20549E89701AFFAFBC /* HHAlbumViewCell.swift */; };
+		788EFC0F1D578B81DBE334035B95C7F0 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59562BF33632FEAB6764BA17E0979470 /* Configuration.swift */; };
+		7C926BFC7F82BA42784F4185C771E041 /* Hohenheim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CE9351C9E27A21B08345536B593FC9 /* Hohenheim-dummy.m */; };
+		7FE2776591581BD782EC2ABDC07A8574 /* HohenheimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB15EAF0FF063AC0E94B499E0F8B930 /* HohenheimViewController.swift */; };
+		87C71FE58CE77088D3114874C0B473BB /* Hohenheim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A0D8817E4C5BDC67F21023C07ACA12 /* Hohenheim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9371881750C3094A5D1EA7CAC4F3E398 /* HHVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DD942498B2C91FA2D51D86C5B5C641 /* HHVideoCameraView.swift */; };
+		A546BBB33FFC9AE611B80D18F1FA5B95 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E71E3A7C31B35724B394173B93271F6 /* CoreMotion.framework */; };
+		C3D5047E57EC60FFD8CDE1A3EDA8D2B2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE6ABA5773B0BABFE1E69CEAF4925D /* AVFoundation.framework */; };
+		C52B52385BE52566B8C7BA62A5BB228F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9805F80D5EF7EB65B4E81FE14FFE4A6 /* Extensions.swift */; };
 		C6696F9B7C1BB28BA573D02289B68E01 /* Pods-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */; };
-		D1CD803D382962ABD76144FF6FD54887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7D69C10ECD5B9DA976BBFBF87B3678F /* Assets.xcassets */; };
-		D591A042C666F095905BFFAB138C31E3 /* HHVideoCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F27EB699C4AE1D1B529F53B0724368B /* HHVideoCameraView.swift */; };
-		E63ED7197EB454FD43AC09672B25A052 /* HohenheimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3683F0894715A19CA14F66585DEAD3A8 /* HohenheimViewController.xib */; };
-		F3F454427927D4F50E9F88C467034B1A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AFD3D128686E98B7F32790FE156616 /* Extensions.swift */; };
+		D8D4EF8A196D1D77E0E0C113CD5E7A16 /* HHAlbumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0F77E52DBF7A396A0D0C8D5463CECE1 /* HHAlbumView.xib */; };
+		E57FD44389C4D7D4EB237C32B9BE45AF /* HHCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14CC0D1004DA51C03EB242B645076C /* HHCameraView.swift */; };
+		E7EC2474A2E497BFCCF98401AB0CE4B0 /* HHCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6826911E8C64C729273F1C1E66CA8BA /* HHCameraView.xib */; };
+		F3119F7C71398FD3A0B7762CCC00F312 /* HHVideoCameraView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C7BBBEE41F6116C583E4F8F99B1CB6 /* HHVideoCameraView.xib */; };
 		FBC7A3214CD9761719E56049287DCEC0 /* Pods-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6250D4786F58A5C40ED2EF442EB36F /* HohenheimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72411E76BC5B09537EBD1DE813033C4D /* HohenheimViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,56 +37,106 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1B86422E3FDF36B540B7D93C7684606D;
+			remoteGlobalIDString = E42D81704FBB45E040416CB9C7C84C94;
 			remoteInfo = Hohenheim;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11CC8872D333025B58E9DA296FC979CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B4A269E570E13A21F16FC20488DCDB /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/js/jquery.min.js; sourceTree = "<group>"; };
+		04EC580510EA87635FB26D6D94E7B2FF /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/css/jazzy.css; sourceTree = "<group>"; };
+		052E38261EA087AC5B3AED7454E1FC28 /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/Structs.html; sourceTree = "<group>"; };
+		106F95B313F11512CCB7B23BE52C10B6 /* HohenheimViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimViewController.html; path = docs/Classes/HohenheimViewController.html; sourceTree = "<group>"; };
+		114AAC04B00D2A20549E89701AFFAFBC /* HHAlbumViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHAlbumViewCell.swift; sourceTree = "<group>"; };
+		11C7BBBEE41F6116C583E4F8F99B1CB6 /* HHVideoCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHVideoCameraView.xib; sourceTree = "<group>"; };
+		137EC65B660C752149CE47791AE21D69 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/img/gh.png; sourceTree = "<group>"; };
 		161FD1626938094EEC6BF57530EDB6DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BC18FF02C615A9E30FDC88BE72A373 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/Extensions.html; sourceTree = "<group>"; };
+		1801F4684637C9B0B7720D35D88AA374 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/search.json; sourceTree = "<group>"; };
+		1B3983B7FFA11FAA75390B8D56B44157 /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Classes.html; sourceTree = "<group>"; };
+		1E71E3A7C31B35724B394173B93271F6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		24146BC8CCADF0DCCDC85E44A543CB2E /* Pods_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample.framework; path = "Pods-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2612843D7E5F9A22FE13249D7B8F7E84 /* Hohenheim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hohenheim.xcconfig; sourceTree = "<group>"; };
+		25B19E9CCD0ED984D66C25F567B8ED02 /* gh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = gh.png; path = docs/img/gh.png; sourceTree = "<group>"; };
+		28C8A71411321AA6AC98D5FC99745B86 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/css/highlight.css; sourceTree = "<group>"; };
 		2FDF78216A41DB691C5960FEE69EB9FD /* Pods-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-resources.sh"; sourceTree = "<group>"; };
-		3683F0894715A19CA14F66585DEAD3A8 /* HohenheimViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HohenheimViewController.xib; path = Hohenheim/HohenheimViewController.xib; sourceTree = "<group>"; };
+		36C8DB7F2C1EAEB908FA17970DE4F0D0 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Hohenheim/Assets.xcassets; sourceTree = "<group>"; };
+		3775815D3E296BD0D3C85B4160C4CCC2 /* HHAlbumViewDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HHAlbumViewDelegate.html; path = docs/Protocols/HHAlbumViewDelegate.html; sourceTree = "<group>"; };
 		3AE375A74D27FC41E7BB6C006DFC76A6 /* Pods-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		3F27EB699C4AE1D1B529F53B0724368B /* HHVideoCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHVideoCameraView.swift; sourceTree = "<group>"; };
+		3AF41F23556C5BA42FBA1D8B6E2AFD56 /* Hohenheim.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hohenheim.xcconfig; sourceTree = "<group>"; };
+		3F238370CEED0DEB529677004FCB997A /* AVCaptureDevice.html */ = {isa = PBXFileReference; includeInIndex = 1; name = AVCaptureDevice.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Extensions/AVCaptureDevice.html; sourceTree = "<group>"; };
+		3F26E0EFE2EA43713318D12533E06065 /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/img/carat.png; sourceTree = "<group>"; };
+		4098D15224B5C88B4EDB20F394053730 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/index.html; sourceTree = "<group>"; };
+		43A992B9B222EF1A5033DBF9B8AAE84E /* HHAlbumViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHAlbumViewCell.xib; sourceTree = "<group>"; };
+		43FF4E145876B73590938EF09684795C /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/Protocols.html; sourceTree = "<group>"; };
+		44371E7168A24DF9776E569BB64463B8 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/js/jazzy.js; sourceTree = "<group>"; };
 		4AF50723EE695E440CDA214119EF2C70 /* Pods-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample-dummy.m"; sourceTree = "<group>"; };
-		4B72349DD7BA809AD8A670FC847763A1 /* Hohenheim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hohenheim.modulemap; sourceTree = "<group>"; };
-		56CC88D3A4740FA5781F6468A6880C40 /* HHAlbumView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHAlbumView.swift; sourceTree = "<group>"; };
-		609150C6F0CCA5FDC41B4C645FB026B8 /* HHCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHCameraView.swift; sourceTree = "<group>"; };
+		4B1671E2CCC7DF5FFC92C8F9A3E4B150 /* highlight.css */ = {isa = PBXFileReference; includeInIndex = 1; name = highlight.css; path = docs/css/highlight.css; sourceTree = "<group>"; };
+		511C4E3C2D8C59324D4006042FFA4903 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		56DD942498B2C91FA2D51D86C5B5C641 /* HHVideoCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHVideoCameraView.swift; sourceTree = "<group>"; };
+		56E632180AF797088FD5AB70BDAA8698 /* Hohenheim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hohenheim-prefix.pch"; sourceTree = "<group>"; };
+		59562BF33632FEAB6764BA17E0979470 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		5A17EC6CD248EF457C8968440B23CB7A /* HohenheimItem.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimItem.html; path = docs/Structs/HohenheimItem.html; sourceTree = "<group>"; };
+		5EB15EAF0FF063AC0E94B499E0F8B930 /* HohenheimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HohenheimViewController.swift; path = Hohenheim/HohenheimViewController.swift; sourceTree = "<group>"; };
 		630DD76D417453483F37DBAE838D5518 /* Pods-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B2EC8B40EB5A32E46209D2790535DEC /* HohenheimViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HohenheimViewController.swift; path = Hohenheim/HohenheimViewController.swift; sourceTree = "<group>"; };
+		67F2038CBA101D27713EDF0D04EC0F06 /* docSet.dsidx */ = {isa = PBXFileReference; includeInIndex = 1; name = docSet.dsidx; path = docs/docsets/Hohenheim.docset/Contents/Resources/docSet.dsidx; sourceTree = "<group>"; };
+		6CE62A33CC3A8679DB456E3CEBE6842F /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Array.html; path = docs/Extensions/Array.html; sourceTree = "<group>"; };
 		6D65DC53E876D33B73CCFEE44C379EE1 /* Pods-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		72411E76BC5B09537EBD1DE813033C4D /* HohenheimViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HohenheimViewController.xib; path = Hohenheim/HohenheimViewController.xib; sourceTree = "<group>"; };
 		735E5204C40E887244F2B75BCCDF2572 /* Pods-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Sample.modulemap"; sourceTree = "<group>"; };
-		7D21AEFED927276112D72A5538D1470A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		8CEDD1488FCD557FB8DDF312D7D4FA85 /* Hohenheim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hohenheim-dummy.m"; sourceTree = "<group>"; };
-		903BCF457BF2A5BADEED6064E921E19D /* HHAlbumViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHAlbumViewCell.xib; sourceTree = "<group>"; };
+		75EC4674F8ED6AA30E55DFAA880412A5 /* HohenheimItem.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimItem.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Structs/HohenheimItem.html; sourceTree = "<group>"; };
+		771278689A09A426DE59452002DF5A5B /* carat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = carat.png; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/img/carat.png; sourceTree = "<group>"; };
+		774AAD4E92F5EB9050F68A82BEF47685 /* undocumented.json */ = {isa = PBXFileReference; includeInIndex = 1; name = undocumented.json; path = docs/undocumented.json; sourceTree = "<group>"; };
+		78CE9351C9E27A21B08345536B593FC9 /* Hohenheim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hohenheim-dummy.m"; sourceTree = "<group>"; };
+		80585F93E939505E2930B786707B7EE2 /* HohenheimConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimConfiguration.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Classes/HohenheimConfiguration.html; sourceTree = "<group>"; };
+		816B3B2BAC6C5CA11E455A431D352090 /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/Enums.html; sourceTree = "<group>"; };
+		8820B1652E49290CE3A3E6AEA16C909D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		903701DB425ABED4F66AE6B7BDD1CA8E /* Structs.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Structs.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Structs.html; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97C97DD246C4413F9A0201C042507EE1 /* Hohenheim.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Hohenheim.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C896AB03AD02637A2108FF27D207683 /* Pods-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample-frameworks.sh"; sourceTree = "<group>"; };
-		9FD0149B92778BF17C7C32DE2F6ED4B5 /* Hohenheim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hohenheim-umbrella.h"; sourceTree = "<group>"; };
+		A074DE3EBCA07BDAE0B58FBB1F0581F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A18ADD9C511D595661BB8902ADF0EC23 /* jquery.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jquery.min.js; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/js/jquery.min.js; sourceTree = "<group>"; };
 		A21D9B3C2775E7C503E601A5737980FB /* Pods-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A25AA2BD187E9FD826058224E3E18670 /* HohenheimDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimDelegate.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Protocols/HohenheimDelegate.html; sourceTree = "<group>"; };
+		A3FEC6B723E0BA93BAD0C37D729C3138 /* CurrentFlashMode.html */ = {isa = PBXFileReference; includeInIndex = 1; name = CurrentFlashMode.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Extensions/AVCaptureDevice/CurrentFlashMode.html; sourceTree = "<group>"; };
+		A4E05110813B175563A4E7E29EA9CE7A /* Hohenheim.tgz */ = {isa = PBXFileReference; includeInIndex = 1; name = Hohenheim.tgz; path = docs/docsets/Hohenheim.tgz; sourceTree = "<group>"; };
 		A4F67C9E66E8D9E97F11042B162517EB /* Pods-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB1FAD4D5B126EE7D199C5E5D38D188F /* HHAlbumViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHAlbumViewCell.swift; sourceTree = "<group>"; };
-		C7D69C10ECD5B9DA976BBFBF87B3678F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Hohenheim/Assets.xcassets; sourceTree = "<group>"; };
-		C93BBE64C11E5F29910C9F9E351B13FE /* HHAlbumView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHAlbumView.xib; sourceTree = "<group>"; };
-		CCA640ED7B13B7249A69C61470180B1B /* HHVideoCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHVideoCameraView.xib; sourceTree = "<group>"; };
+		A935BFFA43E43DEA24431D368246B855 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = docs/docsets/Hohenheim.docset/Contents/Info.plist; sourceTree = "<group>"; };
+		A97A2B852869F1FEFDF08180974FF7E3 /* jazzy.js */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.js; path = docs/js/jazzy.js; sourceTree = "<group>"; };
+		AA8B63BDEF33EF7C8F6EBDF5284C25DB /* CurrentFlashMode.html */ = {isa = PBXFileReference; includeInIndex = 1; name = CurrentFlashMode.html; path = docs/Extensions/AVCaptureDevice/CurrentFlashMode.html; sourceTree = "<group>"; };
+		B378E2E1A3FEB98B63466A46A837D3AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B446628C1C9DC27139F1ECE4E791B459 /* Protocols.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Protocols.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Protocols.html; sourceTree = "<group>"; };
+		B464F62AB98618825E66BDC66B789D60 /* HohenheimDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimDelegate.html; path = docs/Protocols/HohenheimDelegate.html; sourceTree = "<group>"; };
+		B4AC02AD44BBD3C785E824CFA86288FC /* Enums.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Enums.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Enums.html; sourceTree = "<group>"; };
+		B4AE6ABA5773B0BABFE1E69CEAF4925D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5C2C686B6D3B4F0C16F29CFF9148C8F /* HohenheimSource.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimSource.html; path = docs/Enums/HohenheimSource.html; sourceTree = "<group>"; };
+		BA14CC0D1004DA51C03EB242B645076C /* HHCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHCameraView.swift; sourceTree = "<group>"; };
+		BEE8464A6D545BBEBCF8DFB80321750E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9805F80D5EF7EB65B4E81FE14FFE4A6 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5B9F968A3C8097EC939774D485A246A /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/img/dash.png; sourceTree = "<group>"; };
+		D61F8678483BF143BFE9268564C4BED0 /* Extensions.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Extensions.html; sourceTree = "<group>"; };
 		D6E37565D1D58077E8515C4DBA3F97B0 /* Hohenheim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hohenheim.framework; path = Hohenheim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95A0DCA60DD5939137730574EB5FB63 /* HHCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHCameraView.xib; sourceTree = "<group>"; };
-		F6AFD3D128686E98B7F32790FE156616 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		F860F2521E2EE81050AB38FBD1096CA5 /* Hohenheim-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hohenheim-prefix.pch"; sourceTree = "<group>"; };
+		DB5FEDCB74879A442B560010C8ACEAE0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		E0A0D8817E4C5BDC67F21023C07ACA12 /* Hohenheim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hohenheim-umbrella.h"; sourceTree = "<group>"; };
+		E0D5B9C0D4F5AA4F097F248E19530A17 /* dash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dash.png; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/img/dash.png; sourceTree = "<group>"; };
+		E0F77E52DBF7A396A0D0C8D5463CECE1 /* HHAlbumView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHAlbumView.xib; sourceTree = "<group>"; };
+		E42EDF33067A782B133D36AE22BFB8A8 /* jazzy.css */ = {isa = PBXFileReference; includeInIndex = 1; name = jazzy.css; path = docs/css/jazzy.css; sourceTree = "<group>"; };
+		E4ED8F1CE064C430604712CC3CA6A542 /* HHAlbumViewDelegate.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HHAlbumViewDelegate.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Protocols/HHAlbumViewDelegate.html; sourceTree = "<group>"; };
+		E553000C1BC25930D8AD826B8D7A5328 /* Hohenheim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Hohenheim.modulemap; sourceTree = "<group>"; };
+		E7D5A468E9B26EDE42C02A09C16FF695 /* badge.svg */ = {isa = PBXFileReference; includeInIndex = 1; name = badge.svg; path = docs/badge.svg; sourceTree = "<group>"; };
+		E95A334A6797476A392FEC19EF723B6A /* HHAlbumView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HHAlbumView.swift; sourceTree = "<group>"; };
+		EB53AF5B2970596667B464442977EB23 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/index.html; sourceTree = "<group>"; };
+		ECF69D100190C226EB7271D30C706C09 /* Array.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Array.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Extensions/Array.html; sourceTree = "<group>"; };
+		F07FD9FFB623D20B30785DA04BD15EC0 /* HohenheimSource.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimSource.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Enums/HohenheimSource.html; sourceTree = "<group>"; };
+		F3BCE5610FA43DA7CB0AD19CD64432D3 /* HohenheimViewController.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimViewController.html; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/Classes/HohenheimViewController.html; sourceTree = "<group>"; };
+		F53ABFEAB0DA0B926509C41754D17CD0 /* HohenheimConfiguration.html */ = {isa = PBXFileReference; includeInIndex = 1; name = HohenheimConfiguration.html; path = docs/Classes/HohenheimConfiguration.html; sourceTree = "<group>"; };
+		F6826911E8C64C729273F1C1E66CA8BA /* HHCameraView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HHCameraView.xib; sourceTree = "<group>"; };
+		FD2F6D182020AC89066A9C37F1AD671B /* Classes.html */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes.html; path = docs/Classes.html; sourceTree = "<group>"; };
+		FD5C824F1D4B5BC996AB815441F3AFD4 /* search.json */ = {isa = PBXFileReference; includeInIndex = 1; name = search.json; path = docs/docsets/Hohenheim.docset/Contents/Resources/Documents/search.json; sourceTree = "<group>"; };
+		FE1617A6278FA50F15EA1F3F069DFBE4 /* AVCaptureDevice.html */ = {isa = PBXFileReference; includeInIndex = 1; name = AVCaptureDevice.html; path = docs/Extensions/AVCaptureDevice.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B2A5E094CEE3E04D77399FEB81CA172 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AF4E1495A94030523A07DA6D43F7BAD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A8B7CEEF47199040F014F103F885AA51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,9 +145,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB7ED61061B01B2634DDDBFDC5274DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D5047E57EC60FFD8CDE1A3EDA8D2B2 /* AVFoundation.framework in Frameworks */,
+				A546BBB33FFC9AE611B80D18F1FA5B95 /* CoreMotion.framework in Frameworks */,
+				4FE6608E05E63FB37ACD660A68A76872 /* Foundation.framework in Frameworks */,
+				02A123327342B4536A170A9DC0912757 /* Photos.framework in Frameworks */,
+				259266F6A701EDA081233355909603E3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051839ADEE3A7A5F6E4E0F88C19BDB5C /* Hohenheim */ = {
+			isa = PBXGroup;
+			children = (
+				5EB15EAF0FF063AC0E94B499E0F8B930 /* HohenheimViewController.swift */,
+				39FBF70B04D8CBB6A334D3D4C11F72D6 /* Helpers */,
+				E0235B6712E3E79070E001E210A80694 /* Pod */,
+				B6602B93E03C18CA5D5885F30739CDE3 /* Resources */,
+				08C186DF23913F44AA7BDDCFFEB08317 /* Support Files */,
+				DD87A7720FDFE8CF26A2E55647DF761C /* Views */,
+			);
+			name = Hohenheim;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		08C186DF23913F44AA7BDDCFFEB08317 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E553000C1BC25930D8AD826B8D7A5328 /* Hohenheim.modulemap */,
+				3AF41F23556C5BA42FBA1D8B6E2AFD56 /* Hohenheim.xcconfig */,
+				78CE9351C9E27A21B08345536B593FC9 /* Hohenheim-dummy.m */,
+				56E632180AF797088FD5AB70BDAA8698 /* Hohenheim-prefix.pch */,
+				E0A0D8817E4C5BDC67F21023C07ACA12 /* Hohenheim-umbrella.h */,
+				BEE8464A6D545BBEBCF8DFB80321750E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Sample/Pods/Target Support Files/Hohenheim";
+			sourceTree = "<group>";
+		};
 		091B7D8BA92D475B2B988E98674F984B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,69 +197,53 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E33034D9C3B9155DECCE90ED5A88F12 /* Support Files */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B72349DD7BA809AD8A670FC847763A1 /* Hohenheim.modulemap */,
-				2612843D7E5F9A22FE13249D7B8F7E84 /* Hohenheim.xcconfig */,
-				8CEDD1488FCD557FB8DDF312D7D4FA85 /* Hohenheim-dummy.m */,
-				F860F2521E2EE81050AB38FBD1096CA5 /* Hohenheim-prefix.pch */,
-				9FD0149B92778BF17C7C32DE2F6ED4B5 /* Hohenheim-umbrella.h */,
-				11CC8872D333025B58E9DA296FC979CB /* Info.plist */,
+				7A426A158C86706CC2C4F993342B297E /* iOS */,
 			);
-			name = "Support Files";
-			path = "Sample/Pods/Target Support Files/Hohenheim";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		66BBDA15E7A185EABFA009DFB44CF49F /* Development Pods */ = {
+		39FBF70B04D8CBB6A334D3D4C11F72D6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D1D6101CD7FD786963FB1FA63A0D4A1E /* Hohenheim */,
+				59562BF33632FEAB6764BA17E0979470 /* Configuration.swift */,
+				C9805F80D5EF7EB65B4E81FE14FFE4A6 /* Extensions.swift */,
+			);
+			name = Helpers;
+			path = Hohenheim/Helpers;
+			sourceTree = "<group>";
+		};
+		5C8AB91EE2396444910578850D5CC444 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051839ADEE3A7A5F6E4E0F88C19BDB5C /* Hohenheim */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		71CE1AD7E5578DA666E0E0915B68443D /* Views */ = {
+		7A426A158C86706CC2C4F993342B297E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C93BBE64C11E5F29910C9F9E351B13FE /* HHAlbumView.xib */,
-				903BCF457BF2A5BADEED6064E921E19D /* HHAlbumViewCell.xib */,
-				D95A0DCA60DD5939137730574EB5FB63 /* HHCameraView.xib */,
-				CCA640ED7B13B7249A69C61470180B1B /* HHVideoCameraView.xib */,
+				B4AE6ABA5773B0BABFE1E69CEAF4925D /* AVFoundation.framework */,
+				1E71E3A7C31B35724B394173B93271F6 /* CoreMotion.framework */,
+				B378E2E1A3FEB98B63466A46A837D3AD /* Foundation.framework */,
+				DB5FEDCB74879A442B560010C8ACEAE0 /* Photos.framework */,
+				8820B1652E49290CE3A3E6AEA16C909D /* UIKit.framework */,
 			);
-			name = Views;
-			path = Hohenheim/Views;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				66BBDA15E7A185EABFA009DFB44CF49F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5C8AB91EE2396444910578850D5CC444 /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				091B7D8BA92D475B2B988E98674F984B /* Products */,
 				A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		881882FE9C678E198E0258FE5C4D69F3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C7D69C10ECD5B9DA976BBFBF87B3678F /* Assets.xcassets */,
-				3683F0894715A19CA14F66585DEAD3A8 /* HohenheimViewController.xib */,
-				71CE1AD7E5578DA666E0E0915B68443D /* Views */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A4838DA0B6F06F8C08042FF3D291C95A /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				7D21AEFED927276112D72A5538D1470A /* Configuration.swift */,
-				F6AFD3D128686E98B7F32790FE156616 /* Extensions.swift */,
-			);
-			name = Helpers;
-			path = Hohenheim/Helpers;
 			sourceTree = "<group>";
 		};
 		A8614ADDDA2C845A05B4D5D16AB12C48 /* Targets Support Files */ = {
@@ -176,24 +254,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ACEFBEA76B0FBA27CB783CD66D90130E /* Views */ = {
+		B6602B93E03C18CA5D5885F30739CDE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				56CC88D3A4740FA5781F6468A6880C40 /* HHAlbumView.swift */,
-				BB1FAD4D5B126EE7D199C5E5D38D188F /* HHAlbumViewCell.swift */,
-				609150C6F0CCA5FDC41B4C645FB026B8 /* HHCameraView.swift */,
-				3F27EB699C4AE1D1B529F53B0724368B /* HHVideoCameraView.swift */,
+				36C8DB7F2C1EAEB908FA17970DE4F0D0 /* Assets.xcassets */,
+				72411E76BC5B09537EBD1DE813033C4D /* HohenheimViewController.xib */,
+				DE65AFF650F8BA1F3BA8D9D5356199A0 /* Views */,
 			);
-			name = Views;
-			path = Hohenheim/Views;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		BF5639CAB18577B4EDAE07E0E34E188C /* Pods-Sample */ = {
@@ -214,35 +282,99 @@
 			path = "Target Support Files/Pods-Sample";
 			sourceTree = "<group>";
 		};
-		D1D6101CD7FD786963FB1FA63A0D4A1E /* Hohenheim */ = {
+		DD87A7720FDFE8CF26A2E55647DF761C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6B2EC8B40EB5A32E46209D2790535DEC /* HohenheimViewController.swift */,
-				A4838DA0B6F06F8C08042FF3D291C95A /* Helpers */,
-				881882FE9C678E198E0258FE5C4D69F3 /* Resources */,
-				4E33034D9C3B9155DECCE90ED5A88F12 /* Support Files */,
-				ACEFBEA76B0FBA27CB783CD66D90130E /* Views */,
+				E95A334A6797476A392FEC19EF723B6A /* HHAlbumView.swift */,
+				114AAC04B00D2A20549E89701AFFAFBC /* HHAlbumViewCell.swift */,
+				BA14CC0D1004DA51C03EB242B645076C /* HHCameraView.swift */,
+				56DD942498B2C91FA2D51D86C5B5C641 /* HHVideoCameraView.swift */,
 			);
-			name = Hohenheim;
-			path = ../..;
+			name = Views;
+			path = Hohenheim/Views;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		DE65AFF650F8BA1F3BA8D9D5356199A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				E0F77E52DBF7A396A0D0C8D5463CECE1 /* HHAlbumView.xib */,
+				43A992B9B222EF1A5033DBF9B8AAE84E /* HHAlbumViewCell.xib */,
+				F6826911E8C64C729273F1C1E66CA8BA /* HHCameraView.xib */,
+				11C7BBBEE41F6116C583E4F8F99B1CB6 /* HHVideoCameraView.xib */,
 			);
-			name = iOS;
+			name = Views;
+			path = Hohenheim/Views;
+			sourceTree = "<group>";
+		};
+		E0235B6712E3E79070E001E210A80694 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECF69D100190C226EB7271D30C706C09 /* Array.html */,
+				6CE62A33CC3A8679DB456E3CEBE6842F /* Array.html */,
+				FE1617A6278FA50F15EA1F3F069DFBE4 /* AVCaptureDevice.html */,
+				3F238370CEED0DEB529677004FCB997A /* AVCaptureDevice.html */,
+				E7D5A468E9B26EDE42C02A09C16FF695 /* badge.svg */,
+				3F26E0EFE2EA43713318D12533E06065 /* carat.png */,
+				771278689A09A426DE59452002DF5A5B /* carat.png */,
+				FD2F6D182020AC89066A9C37F1AD671B /* Classes.html */,
+				1B3983B7FFA11FAA75390B8D56B44157 /* Classes.html */,
+				A3FEC6B723E0BA93BAD0C37D729C3138 /* CurrentFlashMode.html */,
+				AA8B63BDEF33EF7C8F6EBDF5284C25DB /* CurrentFlashMode.html */,
+				D5B9F968A3C8097EC939774D485A246A /* dash.png */,
+				E0D5B9C0D4F5AA4F097F248E19530A17 /* dash.png */,
+				67F2038CBA101D27713EDF0D04EC0F06 /* docSet.dsidx */,
+				B4AC02AD44BBD3C785E824CFA86288FC /* Enums.html */,
+				816B3B2BAC6C5CA11E455A431D352090 /* Enums.html */,
+				D61F8678483BF143BFE9268564C4BED0 /* Extensions.html */,
+				17BC18FF02C615A9E30FDC88BE72A373 /* Extensions.html */,
+				137EC65B660C752149CE47791AE21D69 /* gh.png */,
+				25B19E9CCD0ED984D66C25F567B8ED02 /* gh.png */,
+				E4ED8F1CE064C430604712CC3CA6A542 /* HHAlbumViewDelegate.html */,
+				3775815D3E296BD0D3C85B4160C4CCC2 /* HHAlbumViewDelegate.html */,
+				4B1671E2CCC7DF5FFC92C8F9A3E4B150 /* highlight.css */,
+				28C8A71411321AA6AC98D5FC99745B86 /* highlight.css */,
+				97C97DD246C4413F9A0201C042507EE1 /* Hohenheim.podspec */,
+				A4E05110813B175563A4E7E29EA9CE7A /* Hohenheim.tgz */,
+				80585F93E939505E2930B786707B7EE2 /* HohenheimConfiguration.html */,
+				F53ABFEAB0DA0B926509C41754D17CD0 /* HohenheimConfiguration.html */,
+				B464F62AB98618825E66BDC66B789D60 /* HohenheimDelegate.html */,
+				A25AA2BD187E9FD826058224E3E18670 /* HohenheimDelegate.html */,
+				5A17EC6CD248EF457C8968440B23CB7A /* HohenheimItem.html */,
+				75EC4674F8ED6AA30E55DFAA880412A5 /* HohenheimItem.html */,
+				F07FD9FFB623D20B30785DA04BD15EC0 /* HohenheimSource.html */,
+				B5C2C686B6D3B4F0C16F29CFF9148C8F /* HohenheimSource.html */,
+				106F95B313F11512CCB7B23BE52C10B6 /* HohenheimViewController.html */,
+				F3BCE5610FA43DA7CB0AD19CD64432D3 /* HohenheimViewController.html */,
+				4098D15224B5C88B4EDB20F394053730 /* index.html */,
+				EB53AF5B2970596667B464442977EB23 /* index.html */,
+				A935BFFA43E43DEA24431D368246B855 /* Info.plist */,
+				04EC580510EA87635FB26D6D94E7B2FF /* jazzy.css */,
+				E42EDF33067A782B133D36AE22BFB8A8 /* jazzy.css */,
+				44371E7168A24DF9776E569BB64463B8 /* jazzy.js */,
+				A97A2B852869F1FEFDF08180974FF7E3 /* jazzy.js */,
+				03B4A269E570E13A21F16FC20488DCDB /* jquery.min.js */,
+				A18ADD9C511D595661BB8902ADF0EC23 /* jquery.min.js */,
+				511C4E3C2D8C59324D4006042FFA4903 /* LICENSE.md */,
+				B446628C1C9DC27139F1ECE4E791B459 /* Protocols.html */,
+				43FF4E145876B73590938EF09684795C /* Protocols.html */,
+				A074DE3EBCA07BDAE0B58FBB1F0581F5 /* README.md */,
+				1801F4684637C9B0B7720D35D88AA374 /* search.json */,
+				FD5C824F1D4B5BC996AB815441F3AFD4 /* search.json */,
+				903701DB425ABED4F66AE6B7BDD1CA8E /* Structs.html */,
+				052E38261EA087AC5B3AED7454E1FC28 /* Structs.html */,
+				774AAD4E92F5EB9050F68A82BEF47685 /* undocumented.json */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0AC77C8B0EFDEA13B69BE8915843D153 /* Headers */ = {
+		91AA85DE927736EFF6E6627234B4C85F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				598A7BC001181F3A1459B1CD34020964 /* Hohenheim-umbrella.h in Headers */,
+				87C71FE58CE77088D3114874C0B473BB /* Hohenheim-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,24 +389,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B86422E3FDF36B540B7D93C7684606D /* Hohenheim */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46BDEE2EEC3EF8A80495ABFEE6DB9081 /* Build configuration list for PBXNativeTarget "Hohenheim" */;
-			buildPhases = (
-				F423FDC52441C24B1B5D3890DDCFFC2F /* Sources */,
-				1B2A5E094CEE3E04D77399FEB81CA172 /* Frameworks */,
-				625583BEA4D403AAAB639A356B6CFA03 /* Resources */,
-				0AC77C8B0EFDEA13B69BE8915843D153 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Hohenheim;
-			productName = Hohenheim;
-			productReference = D6E37565D1D58077E8515C4DBA3F97B0 /* Hohenheim.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1BF388B6FCBC6B79265DF39731252A60 /* Pods-Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65966C424C317FED52F819DFFC176086 /* Build configuration list for PBXNativeTarget "Pods-Sample" */;
@@ -291,6 +405,24 @@
 			name = "Pods-Sample";
 			productName = "Pods-Sample";
 			productReference = 24146BC8CCADF0DCCDC85E44A543CB2E /* Pods_Sample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E42D81704FBB45E040416CB9C7C84C94 /* Hohenheim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18760D48615909740D724540DEC71714 /* Build configuration list for PBXNativeTarget "Hohenheim" */;
+			buildPhases = (
+				4FA84ED5C59D3786C6DB2CDBAFA7F41F /* Sources */,
+				CB7ED61061B01B2634DDDBFDC5274DDB /* Frameworks */,
+				DB3255C296AF2E4B2236A8BCB866EB6F /* Resources */,
+				91AA85DE927736EFF6E6627234B4C85F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hohenheim;
+			productName = Hohenheim;
+			productReference = D6E37565D1D58077E8515C4DBA3F97B0 /* Hohenheim.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -314,49 +446,49 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B86422E3FDF36B540B7D93C7684606D /* Hohenheim */,
+				E42D81704FBB45E040416CB9C7C84C94 /* Hohenheim */,
 				1BF388B6FCBC6B79265DF39731252A60 /* Pods-Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		625583BEA4D403AAAB639A356B6CFA03 /* Resources */ = {
+		DB3255C296AF2E4B2236A8BCB866EB6F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CD803D382962ABD76144FF6FD54887 /* Assets.xcassets in Resources */,
-				53C3080EF0F277A7775649B4968FDC40 /* HHAlbumView.xib in Resources */,
-				05C59BBFCA3BCD984518F127A8076B1F /* HHAlbumViewCell.xib in Resources */,
-				436EB0E4E70F2FAE46FC00A0A7AAD47E /* HHCameraView.xib in Resources */,
-				B928F1E1DC4BE00523F290EF5426F8F2 /* HHVideoCameraView.xib in Resources */,
-				E63ED7197EB454FD43AC09672B25A052 /* HohenheimViewController.xib in Resources */,
+				4567F51A63DC672F336B113636194370 /* Assets.xcassets in Resources */,
+				D8D4EF8A196D1D77E0E0C113CD5E7A16 /* HHAlbumView.xib in Resources */,
+				2BE6C313BC83824937E5CF0814A01E72 /* HHAlbumViewCell.xib in Resources */,
+				E7EC2474A2E497BFCCF98401AB0CE4B0 /* HHCameraView.xib in Resources */,
+				F3119F7C71398FD3A0B7762CCC00F312 /* HHVideoCameraView.xib in Resources */,
+				FC6250D4786F58A5C40ED2EF442EB36F /* HohenheimViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4FA84ED5C59D3786C6DB2CDBAFA7F41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788EFC0F1D578B81DBE334035B95C7F0 /* Configuration.swift in Sources */,
+				C52B52385BE52566B8C7BA62A5BB228F /* Extensions.swift in Sources */,
+				1E82790CB18D3B4966F73B8CE2C12E46 /* HHAlbumView.swift in Sources */,
+				53680E15CAFC2613100DE985C3E1B97F /* HHAlbumViewCell.swift in Sources */,
+				E57FD44389C4D7D4EB237C32B9BE45AF /* HHCameraView.swift in Sources */,
+				9371881750C3094A5D1EA7CAC4F3E398 /* HHVideoCameraView.swift in Sources */,
+				7C926BFC7F82BA42784F4185C771E041 /* Hohenheim-dummy.m in Sources */,
+				7FE2776591581BD782EC2ABDC07A8574 /* HohenheimViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		877855372C93F0D98920B889521A7D09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6696F9B7C1BB28BA573D02289B68E01 /* Pods-Sample-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F423FDC52441C24B1B5D3890DDCFFC2F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				06CE43009DC9B231EBEA30F42ACA22E5 /* Configuration.swift in Sources */,
-				F3F454427927D4F50E9F88C467034B1A /* Extensions.swift in Sources */,
-				068EEFFB6C9513BC96B3EC91EF45358F /* HHAlbumView.swift in Sources */,
-				A8B91FF10E039F338388668FA87A2AD8 /* HHAlbumViewCell.swift in Sources */,
-				8125F1D4762EC6F9B647781914E80CD1 /* HHCameraView.swift in Sources */,
-				D591A042C666F095905BFFAB138C31E3 /* HHVideoCameraView.swift in Sources */,
-				015C6BC75B47D585F46D8329FD088FEA /* Hohenheim-dummy.m in Sources */,
-				1E757F61649910C13A111EE2A15530B1 /* HohenheimViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +498,7 @@
 		1F3057120755773DA166A67666BC2135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hohenheim;
-			target = 1B86422E3FDF36B540B7D93C7684606D /* Hohenheim */;
+			target = E42D81704FBB45E040416CB9C7C84C94 /* Hohenheim */;
 			targetProxy = 90A2193753EC81F9509A6B2D31E69A7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,9 +564,9 @@
 			};
 			name = Debug;
 		};
-		950361A9B8038C61407EE8CD5F68A29A /* Release */ = {
+		7DA54E1638F1914CDE0463F4A541FB76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2612843D7E5F9A22FE13249D7B8F7E84 /* Hohenheim.xcconfig */;
+			baseConfigurationReference = 3AF41F23556C5BA42FBA1D8B6E2AFD56 /* Hohenheim.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -455,14 +587,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -518,37 +649,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		B076B5254A96245771891093FDF1CE03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2612843D7E5F9A22FE13249D7B8F7E84 /* Hohenheim.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hohenheim/Hohenheim-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hohenheim/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hohenheim/Hohenheim.modulemap";
-				PRODUCT_NAME = Hohenheim;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D06901ED179BC89E4001A8E4A9AB7836 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -618,23 +718,55 @@
 			};
 			name = Debug;
 		};
+		D6CA399B88F5433A81322977F4EA7925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF41F23556C5BA42FBA1D8B6E2AFD56 /* Hohenheim.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hohenheim/Hohenheim-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hohenheim/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hohenheim/Hohenheim.modulemap";
+				PRODUCT_NAME = Hohenheim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18760D48615909740D724540DEC71714 /* Build configuration list for PBXNativeTarget "Hohenheim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA54E1638F1914CDE0463F4A541FB76 /* Debug */,
+				D6CA399B88F5433A81322977F4EA7925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
 				98F29E7567052F62660DDD7069ADF73C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46BDEE2EEC3EF8A80495ABFEE6DB9081 /* Build configuration list for PBXNativeTarget "Hohenheim" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B076B5254A96245771891093FDF1CE03 /* Debug */,
-				950361A9B8038C61407EE8CD5F68A29A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
