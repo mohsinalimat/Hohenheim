@@ -238,8 +238,78 @@ extension HHVideoCameraView: AVCaptureFileOutputRecordingDelegate {
     
     func fileOutput(_ captureOutput: AVCaptureFileOutput, didFinishRecordingTo outputFileURL: URL, from connections: [AVCaptureConnection], error: Error?) {
         
-        print("finished recording to: \(outputFileURL)")
-        self.delegate?.videoFinished(withFileURL: outputFileURL)
+        guard HohenheimConfiguration.autoConvertToMP4 else {
+            print("finished recording to: \(outputFileURL)")
+            self.delegate?.videoFinished(withFileURL: outputFileURL)
+            return
+        }
+        
+        // MARK: - MP4
+        
+        let mp4Path = outputFileURL.path.replacingOccurrences(of: ".mov", with: ".mp4")
+        if FileManager.default.fileExists(atPath: mp4Path) {
+            do {
+                try FileManager.default.removeItem(atPath: mp4Path)
+            } catch let err {
+                print("CANNOT CONVERT TO MP4; finished recording to: \(outputFileURL) \(err)")
+                self.delegate?.videoFinished(withFileURL: outputFileURL)
+                return
+            }
+        }
+
+        let mp4URL = URL.init(fileURLWithPath: mp4Path)
+        
+        let presets = [
+            AVAssetExportPresetPassthrough,
+            AVAssetExportPresetHighestQuality,
+            AVAssetExportPresetMediumQuality,
+            AVAssetExportPresetLowQuality]
+        var presetCompatible: String?
+        
+        let avAsset = AVURLAsset.init(url: outputFileURL)
+        
+        for preset in presets {
+            if AVAssetExportSession.exportPresets(compatibleWith: avAsset).contains(preset) {
+                presetCompatible = preset
+                break
+            }
+        }
+        
+        guard let thePreset = presetCompatible  else {
+            print("CANNOT CONVERT TO MP4; finished recording to: \(outputFileURL)")
+            self.delegate?.videoFinished(withFileURL: outputFileURL)
+            return
+        }
+        
+        guard let exportSession = AVAssetExportSession.init(asset: avAsset, presetName: thePreset) else {
+            print("CANNOT CONVERT TO MP4; finished recording to: \(outputFileURL)")
+            self.delegate?.videoFinished(withFileURL: outputFileURL)
+            return
+        }
+        
+        exportSession.outputURL = mp4URL
+        exportSession.outputFileType = AVFileType.mp4
+        
+//        let start = CMTimeMakeWithSeconds(1.0, 600)
+//        let duration = CMTimeMakeWithSeconds(3.0, 600)
+//        let range = CMTimeRangeMake(start, duration)
+//        
+//        exportSession.timeRange = range
+        
+        exportSession.exportAsynchronously(completionHandler: {
+            switch exportSession.status {
+            case .failed, .cancelled:
+                print("CANNOT CONVERT TO MP4; finished recording to: \(outputFileURL) \(String.init(describing: exportSession.error))")
+                self.delegate?.videoFinished(withFileURL: outputFileURL)
+                break
+            case .completed:
+                print("finished recording to: \(mp4URL)")
+                self.delegate?.videoFinished(withFileURL: mp4URL)
+                break
+            default:
+                break
+            }
+        })
     }
 }
 

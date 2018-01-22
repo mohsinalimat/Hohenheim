@@ -80,6 +80,7 @@ open class HohenheimConfiguration {
     open static var videoStopImage: UIImage?
     
     open static var shouldAutoSavesImage: Bool = false
+    open static var shouldAutoSavesVideo: Bool = false
     
     open static var cameraRollTitle = "Library"
     open static var cameraTitle     = "Photo"
@@ -87,5 +88,7 @@ open class HohenheimConfiguration {
     open static var titleFont       = UIFont(name: "AvenirNext-DemiBold", size: 15)
     
     open static var shouldAutoDismiss: Bool = true
+    
+    open static var autoConvertToMP4: Bool = true
 }
 

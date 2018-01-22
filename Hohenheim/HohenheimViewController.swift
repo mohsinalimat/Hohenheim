@@ -460,27 +460,45 @@ extension HohenheimViewController: HHAlbumViewDelegate, HHCameraViewDelegate, HH
     
     // MARK: HHCameraViewDelegate
     func cameraShotFinished(_ image: UIImage) {
-        self.delegate?.hohenheim(self, didCapturePhoto: image)
-        self.doDismiss(completion: nil)
+        DispatchQueue.main.async {
+            self.delegate?.hohenheim(self, didCapturePhoto: image)
+            self.doDismiss(completion: nil)
+        }
     }
     
     public func albumViewCameraRollAuthorized() {
         // in the case that we're just coming back from granting photo gallery permissions
         // ensure the done button is visible if it should be
-        self.updateDoneButtonVisibility()
+        DispatchQueue.main.async {
+            self.updateDoneButtonVisibility()
+        }
     }
     
     // MARK: HHAlbumViewDelegate
     public func albumViewCameraRollUnauthorized() {
-        self.updateDoneButtonVisibility()
-        delegate?.hohenheimCameraRollUnauthorized(self)
+        DispatchQueue.main.async {
+            self.updateDoneButtonVisibility()
+            self.delegate?.hohenheimCameraRollUnauthorized(self)
+        }
     }
     
     func videoFinished(withFileURL fileURL: URL) {
-        delegate?.hohenheim(self, didCaptureVideo: fileURL)
-        self.doDismiss(completion: nil)
+        if HohenheimConfiguration.shouldAutoSavesVideo {
+            PHPhotoLibrary.shared().performChanges({
+                PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: fileURL)
+            }) { saved, error in
+                DispatchQueue.main.async {
+                    self.delegate?.hohenheim(self, didCaptureVideo: fileURL)
+                    self.doDismiss(completion: nil)
+                }
+            }
+        } else {
+            DispatchQueue.main.async {
+                self.delegate?.hohenheim(self, didCaptureVideo: fileURL)
+                self.doDismiss(completion: nil)
+            }
+        }
     }
-    
 }
 
 private extension HohenheimViewController {

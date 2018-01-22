@@ -8,6 +8,8 @@
 
 import UIKit
 import Hohenheim
+import AssetsLibrary
+import Photos
 
 class ViewController: UIViewController, HohenheimDelegate {
     
@@ -32,6 +34,14 @@ class ViewController: UIViewController, HohenheimDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    public var isSimulator: Bool = {
+        #if (arch(i386) || arch(x86_64)) && !os(OSX) && !os(Linux)
+            return true
+        #else
+            return false
+        #endif
+    }()
+    
     @IBAction func showButtonPressed(_ sender: AnyObject) {
         
         // Show Hohenheim
@@ -39,8 +49,12 @@ class ViewController: UIViewController, HohenheimDelegate {
         
         hohenheim.delegate = self
         hohenheim.allowMultipleSelection = true
-//        hohenheim.availableModes = HohenheimSource.all
-        hohenheim.availableModes = [.library]
+        if isSimulator {
+            hohenheim.availableModes = [.library]
+        } else {
+            hohenheim.availableModes = HohenheimSource.all
+        }
+        HohenheimConfiguration.shouldAutoSavesVideo = true
         HohenheimConfiguration.shouldAutoSavesImage = true
 
         self.present(hohenheim, animated: true, completion: nil)
