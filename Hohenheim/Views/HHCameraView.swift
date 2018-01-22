@@ -74,10 +74,17 @@ final class HHCameraView: UIView, UIGestureRecognizerDelegate {
         
         guard let session = session else { return }
         
-        let devicesIOS10 = AVCaptureDevice.DiscoverySession.init(deviceTypes: [.builtInWideAngleCamera], mediaType: .video, position: initialCaptureDevicePosition)
         
-//        for device in AVCaptureDevice.devices() {
-        for device in devicesIOS10.devices {
+        let theDevices: [AVCaptureDevice]
+        
+        if #available(iOS 10.0, *) {
+            let devicesIOS10 = AVCaptureDevice.DiscoverySession.init(deviceTypes: [.builtInWideAngleCamera], mediaType: .video, position: initialCaptureDevicePosition)
+            theDevices = devicesIOS10.devices
+        } else {
+            theDevices = AVCaptureDevice.devices()
+        }
+        
+        for device in theDevices {
             if device.position == initialCaptureDevicePosition {
                 self.device = device
                 if !device.hasFlash {
@@ -85,7 +92,6 @@ final class HHCameraView: UIView, UIGestureRecognizerDelegate {
                 }
             }
         }
-        
   
         if let _device = device, let _videoInput = try? AVCaptureDeviceInput(device: _device) {
             videoInput = _videoInput
@@ -239,8 +245,13 @@ final class HHCameraView: UIView, UIGestureRecognizerDelegate {
                 }
 
                 let position = (videoInput?.device.position == AVCaptureDevice.Position.front) ? AVCaptureDevice.Position.back : AVCaptureDevice.Position.front
-
-                if let device = AVCaptureDevice.device(at: position, mediaType: .video) {
+                let device: AVCaptureDevice?
+                if #available(iOS 10.0, *) {
+                    device = AVCaptureDevice.deviceiOS10(at: position, mediaType: .video)
+                } else {
+                    device = AVCaptureDevice.device(at: position, mediaType: .video)
+                }
+                if let device = device {
                     videoInput = try AVCaptureDeviceInput.init(device: device)
                     if let videoInput = videoInput {
                         if session.canAddInput(videoInput) {

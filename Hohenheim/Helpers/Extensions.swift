@@ -58,6 +58,7 @@ public extension AVCaptureDevice {
         case auto
     }
     
+    @available(iOS 10.0, *)
     public func getSettings(flashMode: CurrentFlashMode) -> AVCapturePhotoSettings {
         let settings = AVCapturePhotoSettings()
         
@@ -71,13 +72,31 @@ public extension AVCaptureDevice {
         return settings
     }
     
-    public static func device(_ types: [AVCaptureDevice.DeviceType] = [.builtInWideAngleCamera],
+    @available(iOS 10.0, *)
+    public static func deviceiOS10(_ types: [AVCaptureDevice.DeviceType] = [.builtInWideAngleCamera],
                               at position: AVCaptureDevice.Position,
                               mediaType: AVMediaType? = .video) -> AVCaptureDevice? {
         let devicesIOS10 = AVCaptureDevice.DiscoverySession.init(deviceTypes: [.builtInWideAngleCamera], mediaType: mediaType, position: position)
         for device in devicesIOS10.devices {
             if device.position == position {
                 return device
+            }
+        }
+        return nil
+    }
+    
+    public static func device(at position: AVCaptureDevice.Position,
+                              mediaType: AVMediaType? = .video) -> AVCaptureDevice? {
+        let devices = AVCaptureDevice.devices()
+        for device in devices {
+            if device.position == position {
+                if let t = mediaType {
+                    if device.hasMediaType(t) {
+                        return device
+                    }
+                } else {
+                    return device
+                }
             }
         }
         return nil
