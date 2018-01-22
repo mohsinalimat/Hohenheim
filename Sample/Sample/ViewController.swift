@@ -107,8 +107,11 @@ class ViewController: UIViewController, HohenheimDelegate {
         alert.addAction(UIAlertAction(title: "Settings", style: .default) { (action) -> Void in
             
             if let url = URL(string:UIApplicationOpenSettingsURLString) {
-                
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                if #available(iOS 10, *) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                } else {
+                    UIApplication.shared.openURL(url)
+                }
             }
         })
         
